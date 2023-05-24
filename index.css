@@ -5,6 +5,7 @@
     padding: 0%;
 
     font-family: 'Poppins', sans-serif;
+    
 }
 #navbar{
     display: flex;
@@ -96,10 +97,10 @@
 
 }
 #buttons{
-    width: 100%;
+    width: 120%;
     display: flex;
-    justify-content: space-evenly;
-    margin-left: 70%;
+    justify-content: space-between;
+    margin-left: 60%;
     padding: 50px;
 }
 #buttons a {
@@ -160,4 +161,94 @@ iframe{
 .fa-instagram{
     background-color:  rgb(61, 61, 61);
 
+}
+
+.text1-e{
+    display:inline-block;
+    font-size: 72px;
+    text-align: center;
+    margin-left: 100%;
+    font-style:oblique;
+    font-weight: 600;
+    transition: 1s;
+}
+.text1-e:hover{
+    color: bisque;
+    text-shadow: 5px 5px red;
+}
+
+#buttons-e{
+    position: relative;
+    display: flex;
+    width: 200%;
+    justify-content: space-between;
+    margin-left: 20%;
+   padding: 30px;
+   padding-top: 50px;
+
+}
+#buttons-e a {
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(57, 49, 49);
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+#buttons-e a:hover{
+    background-color: red;
+    color: black;
+}
+
+#con{
+    width: 80vh;
+    height: 20vh;
+    position: relative;
+    top:70vh
+}
+
+
+#ppt{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    width: 200%;
+    margin-left: 20%;
+}
+#ppt a{
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: rgb(57, 49, 49);
+    font-size: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 1s;
+    
+}
+#ppt a:hover{
+    background-color: red;
+    color: black;
+}
+.text1-p{
+    position: relative;
+    display:inline-block;
+    font-size: 72px;
+    text-align: center;
+    margin-left: 100%;
+    font-style:oblique;
+    font-weight: 600;
+    transition: 1s;
+   
+}
+.text1-p:hover{
+    color: bisque;
+    text-shadow: 5px 5px red;
+}
+.fa-chevron-left{
+    background-color: rgb(57, 49, 49);
 }
